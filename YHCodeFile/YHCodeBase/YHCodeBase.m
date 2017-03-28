@@ -27,7 +27,7 @@
         //存入归档文件
         [coder encodeObject:value forKey:key];
     }
-    
+    free(ivars);
     
 }
 - (instancetype)initWithCoder:(NSCoder *)coder
@@ -44,6 +44,7 @@
             id value = [coder decodeObjectForKey:key];
             [self setValue:value forKey:key];
         }
+         free(ivars);
     }
     return self;
 }
