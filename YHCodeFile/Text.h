@@ -6,7 +6,7 @@
 //  Copyright © 2017年 mrlee. All rights reserved.
 //
 
-#import "YHCodeBase.h"
+#import "YHCodeBase/YHCodeBase.h"
 
 @interface Text : YHCodeBase
 @property(strong,nonatomic)NSString *name;
