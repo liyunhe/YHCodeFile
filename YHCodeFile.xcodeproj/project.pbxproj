@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400585641E8A776D00E7166F /* YHCodeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 400585631E8A776D00E7166F /* YHCodeBase.m */; };
 		40CB736D1E8A68CA00E8E4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CB736C1E8A68CA00E8E4DB /* main.m */; };
 		40CB73701E8A68CA00E8E4DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CB736F1E8A68CA00E8E4DB /* AppDelegate.m */; };
 		40CB73731E8A68CA00E8E4DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CB73721E8A68CA00E8E4DB /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400585621E8A776D00E7166F /* YHCodeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHCodeBase.h; path = YHCodeBase/YHCodeBase.h; sourceTree = "<group>"; };
+		400585631E8A776D00E7166F /* YHCodeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHCodeBase.m; path = YHCodeBase/YHCodeBase.m; sourceTree = "<group>"; };
 		40CB73681E8A68CA00E8E4DB /* YHCodeFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHCodeFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CB736C1E8A68CA00E8E4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40CB736E1E8A68CA00E8E4DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,7 +33,7 @@
 		40CB737C1E8A68CA00E8E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40CB73851E8A704C00E8E4DB /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
 		40CB73861E8A704C00E8E4DB /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
-		40CB73881E8A73B300E8E4DB /* YHCodeBase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = YHCodeBase; sourceTree = "<group>"; };
+		40CB73881E8A73B300E8E4DB /* YHCodeBase */ = {isa = PBXFileReference; lastKnownFileType = folder; name = YHCodeBase; path = /Users/mrlee/Desktop/YHCodeFile/YHCodeFile/YHCodeBase; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		400585611E8A774F00E7166F /* YHCodeBase */ = {
+			isa = PBXGroup;
+			children = (
+				400585621E8A776D00E7166F /* YHCodeBase.h */,
+				400585631E8A776D00E7166F /* YHCodeBase.m */,
+			);
+			name = YHCodeBase;
+			sourceTree = "<group>";
+		};
 		40CB735F1E8A68CA00E8E4DB = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +75,7 @@
 		40CB736A1E8A68CA00E8E4DB /* YHCodeFile */ = {
 			isa = PBXGroup;
 			children = (
-				40CB73881E8A73B300E8E4DB /* YHCodeBase */,
+				400585611E8A774F00E7166F /* YHCodeBase */,
 				40CB736E1E8A68CA00E8E4DB /* AppDelegate.h */,
 				40CB736F1E8A68CA00E8E4DB /* AppDelegate.m */,
 				40CB73711E8A68CA00E8E4DB /* ViewController.h */,
@@ -159,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400585641E8A776D00E7166F /* YHCodeBase.m in Sources */,
 				40CB73871E8A704C00E8E4DB /* Text.m in Sources */,
 				40CB73731E8A68CA00E8E4DB /* ViewController.m in Sources */,
 				40CB73701E8A68CA00E8E4DB /* AppDelegate.m in Sources */,
